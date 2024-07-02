@@ -184,8 +184,8 @@ semilogy(1:10, s1, 'Color', [1 0 0], 'Marker', 's', 'LineStyle', '-', 'LineWidth
 hold on;
 semilogy(1:10, s2, 'Color', [0 0 1], 'Marker', 'o', 'LineStyle', '--', 'LineWidth', 1.5); % màu xanh cho đường thứ hai
 semilogy(1:10, s3, 'Color', [1 0 1], 'LineStyle', '-', 'LineWidth', 1.5); % màu tím cho đường thứ ba
-xlabel('SNR');
-ylabel('mse');
+xlabel('SNR(dB)');
+ylabel('MSE');
 legend('neural', 'interp', 'practical', 'location', 'best');
 grid on;
 
